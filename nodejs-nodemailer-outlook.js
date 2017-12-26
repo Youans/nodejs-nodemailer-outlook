@@ -31,7 +31,6 @@ transporter.sendMail({
     }
     else {
         console.log(info);
-        console.log('Response: ' + info);
     }
 });
 }

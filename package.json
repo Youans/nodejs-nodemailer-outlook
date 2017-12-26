@@ -1,13 +1,13 @@
 {
   "name": "nodejs-nodemailer-outlook",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Simple integration between nodeJS and outlook.office365",
   "main": "nodejs-nodemailer-outlook.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "nodejs.outlook"
+    "nodejs outlook"
   ],
   "author": "Youans Ezzat",
   "repository": "git://github.com/Youans/nodejs-nodemailer-outlook",
