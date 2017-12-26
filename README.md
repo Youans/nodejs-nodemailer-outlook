@@ -87,11 +87,17 @@ nodeoutlook.sendEmail({
 
 ## Versioning
 
-Current version : 1.0.5
+Current version : 1.0.6
 
 ## Authors
 
 * **Youans Ezzat**
+
+## Links
+
+[Github](https://github.com/Youans/nodejs-nodemailer-outlook)
+
+[Nodemailer](https://www.npmjs.com/package/nodejs-nodemailer-outlook)
 
 ## License
 
