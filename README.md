@@ -1,4 +1,4 @@
-# Project Title
+# NodeJS Nodemailer Outlook
 
 Simple integration between node js and outlook.office365 emailing servers
 
@@ -29,7 +29,7 @@ nodeoutlook.sendEmail({
 
 ## Versioning
 
-Current version : 1.0.2
+Current version : 1.0.3
 
 ## Authors
 
