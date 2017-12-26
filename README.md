@@ -1,7 +1,6 @@
 # NodeJS Nodemailer Outlook
 
-Simple integration between node js and outlook.office365 emailing servers
-
+Simple integration between node js and outlook.office365 emailing servers this project depends on [Nodemailer](https://nodemailer.com) library overriding its variables with `outlook.office365` defaults.
 ## Getting Started
 Install module using following command :
 ```
