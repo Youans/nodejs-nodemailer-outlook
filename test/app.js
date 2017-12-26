@@ -1,12 +1,11 @@
 var nodeoutlook = require('.././outlook')
 nodeoutlook.sendEmail({
     auth: {
-        user: "youans.ezzat@mondiamedia.com",
-        pass: "xxxxx"
-    }, from: 'youans.ezzat@mondiamedia.com',
-    to: 'youans.ezzat@gmail.com',
+        user: "johnexample@organization.com",
+        pass: "johnpassword"
+    }, from: 'info@myorganization.com',
+    to: 'jackexample@organization.com',
     subject: 'Hey you, awesome!',
-    'h:Reply-To': 'reply2this@company.com',
-    html: '<b>Wow Big powerful letters</b>',
-    text: 'Mailgun rocks, pow pow!'
+    html: '<b>This is bold text</b>',
+    text: 'This is text version!'
 });

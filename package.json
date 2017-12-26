@@ -1,6 +1,6 @@
 {
   "name": "nodejs-nodemailer-outlook",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Simple integration between nodeJS and outlook.office365",
   "main": "outlook.js",
   "scripts": {
@@ -10,6 +10,7 @@
     "nodejs.outlook"
   ],
   "author": "Youans Ezzat",
+  "repository": "git://github.com/Youans/nodejs-nodemailer-outlook",
   "license": "UNLICENSED",
   "dependencies": {
     "nodemailer": "^4.4.1"
