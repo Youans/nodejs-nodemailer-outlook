@@ -97,7 +97,7 @@ Current version : 1.0.6
 
 [Github](https://github.com/Youans/nodejs-nodemailer-outlook)
 
-[Nodemailer](https://www.npmjs.com/package/nodejs-nodemailer-outlook)
+[NPM](https://www.npmjs.com/package/nodejs-nodemailer-outlook)
 
 ## License
 
