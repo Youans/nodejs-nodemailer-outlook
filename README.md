@@ -70,9 +70,9 @@ nodeoutlook.sendEmail({
 
 - ```auth``` (<span style='color:red;'>Required</span>): JSON object contains two keys `user` and `pass` these are the authentication of the sender account on email server ex: `{"user":"exampl@mail.com","pass":"123456"}`
 
-- ```host``` (<span style='color:red;'>Required</span>) : Server host url, <b>Default</b> : `smtp.office365.com`
-- ```port``` (<span style='color:red;'>Required</span>) : Server port, <b>Default</b> : `587`
-- ```secure``` (<span style='color:red;'>Required</span>) : false for TLS - as a boolean not string
+- ```host``` : Server host url, <b>Default</b> : `smtp.office365.com`
+- ```port``` : Server port, <b>Default</b> : `587`
+- ```secure``` : false for TLS - as a boolean not string
 
 - ```to```  (<span style='color:red;'>Required</span> if no `cc` or `bcc` are provided): Comma separated emails represent the target recipients.
 - ```cc```  (<span style='color:red;'>Required</span> if no `to` or `bcc` are provided): Comma separated emails represent the target carbon copy (CC) recipients.
