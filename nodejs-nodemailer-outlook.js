@@ -24,13 +24,13 @@ transporter.sendMail({
     bcc:options.bcc,
     text:options.text,
     html:options.html,
-    attachments:options.attachments
+    attachments:options.attachments,
 }, function (err, info) {
-    if (err) {
-        console.log('Error: ' + err);
+    if (err && options.onError) {
+         options.onError(err);
     }
-    else {
-        console.log(info);
+    else if(options.onSuccess) { 
+         options.onSuccess(info);
     }
 });
 }

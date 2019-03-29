@@ -63,8 +63,13 @@ nodeoutlook.sendEmail({
                                  '\r\n' +
                                  'Hello world!'
                         }
-                    ]
-});
+                    ],
+    onError: (e) => console.log(e),
+    onSuccess: (i) => console.log(i)
+}
+
+
+);
 ```
 <b>Options :</b>
 
@@ -81,13 +86,16 @@ nodeoutlook.sendEmail({
 - ```text```  (Optional): Email text body version.
 - ```html```  (Optional): Email html body version.
 - ```attachments```  (Optional): JSON array of attachments.
+- ```onError```  (Optional): Error callback with argument error object.
+- ```onSuccess```  (Optional): Success callback with argument info object.
+
 ## Built With
 
 * [Nodemailer](https://nodemailer.com) - module for Node.js applications to allow easy as cake email sending. The project got started back in 2010 when there was no sane option to send email messages, today it is the solution most Node.js users turn to by default.
 
 ## Versioning
 
-Current version : 1.0.6
+Current version : 1.0.8
 
 ## Authors
 
