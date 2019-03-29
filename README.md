@@ -95,7 +95,7 @@ nodeoutlook.sendEmail({
 
 ## Versioning
 
-Current version : 1.0.8
+Current version : 1.1.0
 
 ## Authors
 
