@@ -9,5 +9,5 @@ nodeoutlook.sendEmail({
     html: '<b>This is bold text</b>',
     text: 'This is text version!',
     onError: e => console.log(e),   
-    onSuccess: info => console.log(info)
+    onSuccess: i => console.log(i)
 });
