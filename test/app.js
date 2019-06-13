@@ -1,11 +1,13 @@
-var nodeoutlook = require('.././outlook')
+var nodeoutlook = require('.././nodejs-nodemailer-outlook.js')
 nodeoutlook.sendEmail({
     auth: {
-        user: "johnexample@organization.com",
-        pass: "johnpassword"
-    }, from: 'info@myorganization.com',
-    to: 'jackexample@organization.com',
+        user: "sender@outlook.com",
+        pass: "********"
+    }, from: 'sender@outlook.com',
+    to: 'receiver@gmail.com',
     subject: 'Hey you, awesome!',
     html: '<b>This is bold text</b>',
-    text: 'This is text version!'
+    text: 'This is text version!',
+    onError: e => console.log(e),   
+    onSuccess: info => console.log(info)
 });
