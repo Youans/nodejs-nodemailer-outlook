@@ -18,6 +18,7 @@ module.exports.sendEmail = function (options) {
     });
 transporter.sendMail({
     from: options.from,
+    sender: options.sender,
     to: options.to,
     subject: options.subject,
     cc:options.cc,
