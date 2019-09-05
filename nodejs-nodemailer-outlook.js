@@ -19,6 +19,7 @@ module.exports.sendEmail = function (options) {
 transporter.sendMail({
     from: options.from,
     sender: options.sender,
+    replyTo: options.replyTo,
     to: options.to,
     subject: options.subject,
     cc:options.cc,
