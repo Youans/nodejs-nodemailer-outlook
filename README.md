@@ -14,11 +14,13 @@ nodeoutlook.sendEmail({
     auth: {
         user: "sender@outlook.com",
         pass: "********"
-    }, from: 'sender@outlook.com',
+    },
+    from: 'sender@outlook.com',
     to: 'receiver@gmail.com',
     subject: 'Hey you, awesome!',
     html: '<b>This is bold text</b>',
     text: 'This is text version!',
+    replyTo: 'receiverXXX@gmail.com',
     attachments: [
                         {
                             filename: 'text1.txt',
@@ -78,7 +80,7 @@ nodeoutlook.sendEmail({
 - ```host``` : Server host url, <b>Default</b> : `smtp.office365.com`
 - ```port``` : Server port, <b>Default</b> : `587`
 - ```secure``` : false for TLS - as a boolean not string
-
+- ```replyTo```: An email address that will appear on the Reply-To: field
 - ```to```  (<span style='color:red;'>Required</span> if no `cc` or `bcc` are provided): Comma separated emails represent the target recipients.
 - ```cc```  (<span style='color:red;'>Required</span> if no `to` or `bcc` are provided): Comma separated emails represent the target carbon copy (CC) recipients.
 - ```bcc```  (<span style='color:red;'>Required</span> if no `to` or `cc` are provided): Comma separated emails represent the target blind carbon copy (BCC) recipients.
