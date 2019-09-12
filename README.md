@@ -80,13 +80,13 @@ nodeoutlook.sendEmail({
 - ```host``` : Server host url, <b>Default</b> : `smtp.office365.com`
 - ```port``` : Server port, <b>Default</b> : `587`
 - ```secure``` : false for TLS - as a boolean not string
-- ```replyTo```: An email address that will appear on the Reply-To: field
 - ```to```  (<span style='color:red;'>Required</span> if no `cc` or `bcc` are provided): Comma separated emails represent the target recipients.
 - ```cc```  (<span style='color:red;'>Required</span> if no `to` or `bcc` are provided): Comma separated emails represent the target carbon copy (CC) recipients.
 - ```bcc```  (<span style='color:red;'>Required</span> if no `to` or `cc` are provided): Comma separated emails represent the target blind carbon copy (BCC) recipients.
 - ```subject```  (Optional): Email subject.
 - ```text```  (Optional): Email text body version.
 - ```html```  (Optional): Email html body version.
+- ```replyTo```: An email address that will appear on the Reply-To: field
 - ```attachments```  (Optional): JSON array of attachments.
 - ```onError```  (Optional): Error callback with argument error object.
 - ```onSuccess```  (Optional): Success callback with argument info object.
