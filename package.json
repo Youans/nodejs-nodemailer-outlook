@@ -1,6 +1,6 @@
 {
   "name": "nodejs-nodemailer-outlook",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Simple integration between nodeJS and outlook.office365",
   "main": "nodejs-nodemailer-outlook.js",
   "scripts": {
