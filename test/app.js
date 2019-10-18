@@ -3,7 +3,8 @@ nodeoutlook.sendEmail({
     auth: {
         user: "sender@outlook.com",
         pass: "********"
-    }, from: 'sender@outlook.com',
+    },
+    from: 'sender@outlook.com',
     to: 'receiver@gmail.com',
     subject: 'Hey you, awesome!',
     html: '<b>This is bold text</b>',
