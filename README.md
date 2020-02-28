@@ -97,7 +97,7 @@ nodeoutlook.sendEmail({
 
 ## Versioning
 
-Current version : 1.2.1
+Current version : 1.2.2
 
 ## Authors
 
@@ -111,4 +111,4 @@ Current version : 1.2.1
 
 ## License
 
-This project is opensource.
+Apache 2.0 License.
