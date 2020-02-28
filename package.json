@@ -11,7 +11,7 @@
   ],
   "author": "Youans Ezzat",
   "repository": "git://github.com/Youans/nodejs-nodemailer-outlook",
-  "license": "UNLICENSED",
+  "license": "Apache-2.0",
   "dependencies": {
     "nodemailer": "^4.4.1"
   }
