@@ -13,6 +13,6 @@
   "repository": "git://github.com/Youans/nodejs-nodemailer-outlook",
   "license": "Apache-2.0",
   "dependencies": {
-    "nodemailer": "^4.4.1"
+    "nodemailer": "^6.4.16"
   }
 }
