@@ -6,7 +6,7 @@ module.exports.sendEmail = function (options) {
     } else if(!options.auth) {
         throw new Error("Options.auth{user,pass} can not be null");
     } else if(!options.auth.user || !options.auth.pass) {
-        throw new Error("Options.auth.user or Options.auth.password can not be null");
+        throw new Error("Options.auth.user or Options.auth.pass cannot be null");
 
     }
     var transporter = nodemailer.createTransport({
